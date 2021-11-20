@@ -1,0 +1,337 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+
+
+
+
+/*header section starts here*/
+.header{
+	background: url("../images/head-back.png") center top no-repeat;
+}
+
+
+.header .navbar .nav {
+	margin-top: 30px;
+}
+.header .navbar .nav .contact{
+	float: right;
+	margin-bottom: 20px;
+}
+.header .navbar .nav .contact p{
+	display: inline;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+	color: #3d2514;
+}
+.header .navbar .nav ul li{
+	float: left;
+	margin-left: 25px;
+}
+.header .navbar .nav ul li a{
+	font-family: 'Bebas Neue', cursive;
+	letter-spacing: 3px;
+	color: #3d2514;
+}
+.header .navbar .nav ul{
+	float: right;
+}
+.header .navbar .logo img{
+	width: 200px;
+	padding-top: 10px;
+}
+.header .navbar .contact img{
+	width: 30px;
+}
+.header .picture img{
+	width: 100%;
+}
+.header .text p{
+	border: 2px dashed;
+	display: inline-block;
+	margin-top: 150px;
+	color: #3d2514;
+}
+.header .text h1{
+	font-size: 60px;
+	font-weight: bold;
+	text-shadow: 2px 2px #fff;
+	font-family: 'Alfa Slab One', cursive;
+	color: #3d2514;
+}
+.header .text h2{
+	font-size: 30px;
+	font-weight: bold;
+	text-shadow: 2px 2px #fff;
+	font-family: 'Alfa Slab One', cursive;
+	color: #3d2514;
+}
+.header .nav .dropdown i{
+	color: #3d2514;
+}
+.header .dropdown ul{
+	background: #ffc44d;
+}
+/*header section ends here*/
+
+
+
+
+/*section sec2 starts here*/
+.sec2 .first img{
+	width: 100%;
+	padding-top: 50px;
+}
+.sec2 .second .second1 img{
+	width: 100%;
+	padding-top: 50px; 
+}
+.sec2 .second .second2 img{
+	width: 100%;
+	padding-top: 34px; 
+}
+/*section sec2 ends here*/
+
+
+
+
+/*order section starts here*/
+.order .text{
+	text-align: center;
+}
+.order .text a{
+	background: #ffc045;
+	display: inline-block;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 12px;
+	padding: 10px 10px 6px 10px;
+	color: #3d2514;
+	margin: 50px 0px 30px 0px;
+}
+.order .text h5{
+	margin-bottom: 0px;
+}
+.order .text h2{
+	color: #3d2514;
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 40px;
+	font-weight: 500;
+}
+.order .text p{
+	font-family: 'Montserrat', sans-serif;
+	color: #3d2514;
+	font-size: 12px;
+	line-height: 18px;
+}
+.order .item{
+	width: 80%;
+	text-align: center;
+	margin: auto;
+}
+.order .item img{
+	width: 100%;
+}
+.order .item  h2{
+	color: #3d2514;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 25px;
+	font-weight: 500;
+	margin-top: 20px;
+}
+.order .item  p{
+	color: #3d2514;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+}
+.order .item button{
+	background: #bf2222;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	padding: 10px 20px 10px 20px;
+	border: none;
+	margin-top: 15px;
+}
+.order .item .mid{
+	margin-top: -40px;
+}
+.order .row .col-lg-4{
+	margin-top: 90px;
+}
+/*order section ends here*/
+
+
+
+
+/*event section starts here*/
+.event{
+	margin-top: 100px;
+	padding: 30px;
+}
+.event .picture img{
+	width: 100%;
+}
+.event .picture{
+	width: 100%;
+}
+.event .row{
+	box-shadow: 5px 8px 8px 5px #E8E5E4;;
+}
+.event .text h5{
+	font-family: 'Bebas Neue', cursive;
+	color: #3d2514;
+	letter-spacing: 1px;
+}
+.event .text h2{
+	font-family: 'Alfa Slab One', cursive;
+	color: #3d2514;
+	letter-spacing: 1px;
+}
+.event .text  p{
+	color: #3d2514;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	margin-top: 20px;
+}
+.event .text{
+	width: 80%;
+	margin:auto;
+}
+.event .col-lg-6{
+	padding: 20px;
+}
+/*events section ends here*/
+
+
+
+
+/*book section starts here*/
+.book .first img{
+	width: 100%;
+}
+.book .first{
+	width: 100%;
+}
+.book .third img{
+	width: 80%;
+	float: right;
+	margin-top: 150px;
+}
+.book .col-lg-3{
+	padding: 0px;
+}
+.book .second h5{
+	color: #3d2514;
+	font-family: 'Bebas Neue', cursive;
+	letter-spacing: 1px;
+	font-size: 22px;
+	margin-top: 60px;
+}
+.book .second h2{
+	color: #3d2514;
+	font-family: 'Alfa Slab One', cursive;
+	letter-spacing: 2px;
+	font-size: 40px;
+	font-weight: 400;
+	margin-bottom: 60px;
+}
+.book .second{
+	text-align: center;
+}
+.book .middle .col-lg-6{
+	float: left; 
+}
+.book .second .middle input{
+	padding: 10px 0px 10px 0px;
+	margin: 10px 5px 10px 5px;
+	width: 80%;
+	font-family: 'Bebas Neue', cursive;
+	color: #3d2514;
+}
+.book .second .middle .name{
+	border-width: 1px 0px 0px 0px;
+}
+.book .second .middle .date{
+	border-width: 1px 0px 1px 0px;
+}
+.book .second .middle .people{
+	border-width: 0px 0px 1px 0px;
+}
+.book .second .middle button a{
+	color: #fff;
+	font-weight: 300;
+	font-family: 'Alfa Slab One', cursive;
+}
+.book .second .middle button{
+	background: #bf2222;
+	border: none;
+	width: 80%;
+	padding: 12px 0px 12px 0px;
+	margin-top: 10px;
+}
+/*book section ends here*/
+
+
+
+
+/*footer section starts here*/
+.footer .container{
+	background: url("../images/last-back.png ") center top no-repeat;
+}
+.footer .first img{
+	width: 250px;
+	padding-top: 40px; 
+}
+.footer .row{
+	width: 98%;
+	margin: auto;
+}
+.footer .first .fir{
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10px;
+	margin-top: 40px;
+	line-height: 18px;
+}
+.footer .first .sec{
+	color: #fff;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 12px;
+	margin-top: 80px;
+}
+.footer .first{
+	width: 70%;
+	float: left;
+}
+.footer .second img{
+	width: 25px;
+	margin-right: 25px;
+}
+.footer .second p{
+	color: #fff;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 17px;
+}
+.footer .second{
+	width: 100%;
+	float: right;
+	margin-top: 150px;
+}
+.footer .third{
+	text-align: right;
+	margin-top: 300px;
+}
+.footer .third img{
+	width: 25px;	
+}
+.footer{
+	margin-bottom: 40px;
+}

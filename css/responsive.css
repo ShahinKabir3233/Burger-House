@@ -1,0 +1,135 @@
+@media(max-width: 575px){
+/*header section starts here*/
+	.header .nav .main{
+		display: none;
+	}
+	.header .text p{
+		margin-top: 50px;
+	}
+	.header .text{
+		text-align: center;
+	}
+/*header section ends here*/
+
+
+
+/*book section starts here*/
+	.book .second .middle input{
+		width: 80%;
+	}
+	.book .third img{
+   		width: 50%;
+   		margin: 0px;
+	}
+	.book .first img{
+		width: 50%;
+		margin: 0px;
+	}
+	.book .second h5{
+		margin-top: 0px;
+	}
+/*book section ends here*/
+
+
+/*footer section starts here*/
+	.footer .first{
+		width: 100%;
+	}
+	.footer .second{
+		margin-top: 50px;
+	}
+	.footer .third{
+		text-align: right;
+		margin: 30px 10px;
+	}
+/*footer section ends here*/
+}
+
+
+
+
+@media(min-width: 576px) and (max-width: 992px){
+/*header section starts here*/
+	.header .nav .main{
+		display: none;
+	}
+	.header .text p{
+		margin-top: 50px;
+	}
+	.header .text .img{
+		width: 80%;
+	}
+/*header section ends here*/
+
+/*event section starts here*/
+	.event{
+		margin-top: 20px;
+		padding: 30px;
+	}
+	.event .text{
+		width: 100%;
+	}
+/*event section ends here*/
+
+/*book section starts here*/
+	.book .second .middle input{
+		width: 100%;
+	}
+	.book .third img{
+   		width: 80%;
+    	float: right;
+    	margin-top: 400px;
+	}
+	.book .second .middle button{
+		width: 100%;
+		padding: 12px 0px 12px 0px;
+		margin: 20px 0px;
+	}
+}
+/*book section ends here*/
+
+
+/*footer section starts here*/
+	.footer .first{
+		width: 100%;
+	}
+	.footer .second{
+		margin-top: 50px;
+	}
+	.footer .third{
+		text-align: right;
+		margin: 30px 10px;
+	}
+/*footer section ends here*/
+}
+
+
+
+
+@media(min-width: 768px) and (max-width: 991px){
+not working
+.event{
+	display: none;
+}
+}
+
+
+
+@media(min-width: 992px) and (max-width: 1199px){
+/*header section starts here*/
+	.header .nav .dropdown{
+		display: none;
+	}
+/*header section ends here*/
+}
+
+
+
+
+@media(min-width: 1200px){
+/*header section starts here*/
+	.header .nav .dropdown{
+		display: none;
+	}
+/*header section ends here*/
+}
